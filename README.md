@@ -6,7 +6,7 @@ A secure, modular and role-based backend API for parcel delivery system built wi
 
 
 ## Project Overview
-CourierHub API is a comprehensive parcel delivery management system designed to streamline the entire courier service workflow. Inspired by popular delivery platforms like Pathao Courier and Sundarban, this API provides a robust foundation for building modern courier and logistics applications.
+CourierHub is a comprehensive parcel delivery management system designed to streamline the entire courier service workflow. Inspired by popular delivery platforms like Pathao Courier and Sundarban this API provides a robust foundation for building modern courier and logistics applications.
 The system implements a three-tier role-based architecture where Senders can create and manage parcel delivery requests, Receivers can track incoming packages and confirm deliveries, and Admins oversee the entire operation with complete system control. Each parcel is assigned a unique tracking ID and follows a complete lifecycle from request to delivery with real-time status updates.
 Built with security-first principles, the API features JWT-based authentication, bcrypt password hashing, and comprehensive input validation. The modular architecture ensures scalability and maintainability, while MongoDB's flexible document structure efficiently handles complex parcel data and embedded status logs.
 Whether you're building a small-scale local delivery service or a large enterprise logistics platform, CourierHub API provides the essential building blocks with production-ready features including automated fee calculation, delivery confirmation workflows, and comprehensive admin controls for user and parcel management.
@@ -33,7 +33,7 @@ Whether you're building a small-scale local delivery service or a large enterpri
 - **Step 1**: Clone Project Directory.
  
 ```bash
-git clone https://github.com/YOUR_USERNAME/courier-hub-api.git
+git clone https://github.com/rrishiddh/ISP-01.git
 ```
 
 - **Step 2**: Install Project Dependencies.
