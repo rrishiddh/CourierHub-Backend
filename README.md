@@ -33,7 +33,7 @@ Whether you're building a small-scale local delivery service or a large enterpri
 - **Step 1**: Clone Project Directory.
  
 ```bash
-git clone https://github.com/rrishiddh/ISP-01.git
+git clone https://github.com/rrishiddh/CourierHub-Backend.git
 ```
 
 - **Step 2**: Install Project Dependencies.
@@ -152,4 +152,4 @@ npm run dev
 
 ### Vercel: [https://courier-hub-rrishiddh.vercel.app/](https://courier-hub-rrishiddh.vercel.app/)
 
-### GitHub Repo: [https://github.com/rrishiddh/ISP-01](https://github.com/rrishiddh/ISP-01)
+### GitHub-Repo-Backend-API: [https://github.com/rrishiddh/CourierHub-Backend](https://github.com/rrishiddh/CourierHub-Backend)
