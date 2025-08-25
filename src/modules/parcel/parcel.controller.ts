@@ -5,7 +5,6 @@ import { User } from '../user/user.model';
 import { calculateFee } from '../../utils/feeCalculator';
 
 export const createParcel = async (req: AuthRequest, res: Response) => {
-  console.log(req.user);
   try {
     const { receiverEmail, receiverAddress, parcelType, weight, description } = req.body;
     
@@ -18,9 +17,6 @@ export const createParcel = async (req: AuthRequest, res: Response) => {
     
     const parcel = await Parcel.create({
       sender: req.user.id,
-      // name: req.user.name,
-      // email: req.user.email,
-      // phone: req.user.phone,
       receiver: receiver._id,
       senderAddress: req.user.address,
       receiverAddress,
@@ -50,7 +46,7 @@ export const getSenderParcels = async (req: AuthRequest, res: Response) => {
     if (status) filter.currentStatus = status;
 
     const parcels = await Parcel.find(filter)
-      .populate('receiver sender', 'name email phone')
+      .populate('sender receiver', 'name email phone')
       .sort({ createdAt: -1 });
 
     res.json({ success: true, parcels });
