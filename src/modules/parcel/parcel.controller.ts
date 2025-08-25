@@ -17,6 +17,9 @@ export const createParcel = async (req: AuthRequest, res: Response) => {
     
     const parcel = await Parcel.create({
       sender: req.user.id,
+      name: req.user.name,
+      email: req.user.email,
+      phone: req.user.phone,
       receiver: receiver._id,
       senderAddress: req.user.address,
       receiverAddress,
