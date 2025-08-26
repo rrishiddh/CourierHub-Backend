@@ -13,8 +13,15 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 connectDB();
+const allowedOrigins = process.env.CORS_ORIGINS ? process.env.CORS_ORIGINS.split(',') : [];
 
-app.use(cors());
+app.use(
+  cors({
+    origin: allowedOrigins,
+    credentials: true,
+  })
+);
+
 app.use(express.json());
 
 app.use('/api/auth', authRoutes);
