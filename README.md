@@ -155,5 +155,5 @@ npm run dev
 
 ### Live Demo (Frontend): [https://somoy-express-rrishiddh.vercel.app/](https://somoy-express-rrishiddh.vercel.app/)
 
-### GitHub-Repo-Frontend : [https://github.com/rrishiddh/Somoy-Express.git](https://github.com/rrishiddh/Somoy-Express.git)
+### GitHub-Repo-Frontend : [https://github.com/rrishiddh/Somoy-Express](https://github.com/rrishiddh/Somoy-Express)
 
