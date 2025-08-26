@@ -52,6 +52,7 @@ MONGODB_URI=YOUR_MONGODB_CONNECTION_URI
 JWT_SECRET=your-jwt-key
 JWT_EXPIRES_IN=7d
 NODE_ENV=development
+CORS_ORIGINS=http://localhost:5000
 ```
 
 - **Step 4**: Run the Application.
